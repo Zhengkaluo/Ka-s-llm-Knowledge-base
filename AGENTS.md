@@ -1,5 +1,10 @@
 # AGENTS.md — 多 Agent 讨论角色设定
 
+> ⓘ **平台入口提示**（适用于 Codex、OpenAI Codex CLI 及任何把 `AGENTS.md` 作为默认入口的 agent 工具）：
+> 你正在进入一个基于 Markdown 的个人知识库框架。在回应用户任何请求之前，**必须先读取并遵守根目录 `SOUL.md`**，
+> 并按 `SOUL.md`「首次交互协议」依次读取 `_schema.md`、`SKILL.md` 与 `topics/` 目录列表，回显自检报告。
+> 本文件本身只定义**多 Agent 讨论的角色池与发言格式**，不替代 `SOUL.md` 的权限规则与 `SKILL.md` 的工作流。
+
 ## 1. 文件用途
 
 本文件定义知识库多 Agent 讨论中可调用的角色池、角色边界和发言格式。

@@ -47,6 +47,14 @@ Most "AI + notes" setups break the moment you switch tools, and most people are 
 4. **Capture your first note.** Paste a screenshot or some text and say "save this to my knowledge base." The AI will infer the source type, propose a topic, and **show you a preview before writing anything**.
 5. **(Optional) explore the example**, then delete the `example/` directory when you're ready to make it yours.
 
+## Works with your AI tool
+
+The framework ships with **entry files for all major AI coding/agent tools**, so whichever one you open the folder in, the AI immediately reads the right protocol:
+
+`CLAUDE.md` · `AGENTS.md` (Codex) · `GEMINI.md` · `WARP.md` · `WORKBUDDY.md` · `CODEBUDDY.md` · `.cursorrules` (Cursor) · `.windsurfrules` (Windsurf) · `.github/copilot-instructions.md` (Copilot)
+
+These are thin pointers — they all route to the same core protocol (`SOUL.md`). See [`PLATFORM-ENTRIES.md`](./PLATFORM-ENTRIES.md) for details. Delete the ones you don't use; it won't affect anything.
+
 ## Core ideas in one picture
 
 | Layer | File | Answers the question |

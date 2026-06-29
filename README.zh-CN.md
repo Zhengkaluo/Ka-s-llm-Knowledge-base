@@ -47,6 +47,14 @@
 4. **录入第一条笔记**：粘贴一张截图或一段文字，说"存到知识库里"。AI 会自动推断来源类型、建议归入哪个主题，并在**写入前先给你看预览**。
 5. **（可选）先看看 example/ 示例**，准备好后删掉 `example/` 目录，把它变成你自己的库。
 
+## 适配你的 AI 工具
+
+框架自带**主流 AI 编码/agent 工具的入口文件**，无论你用哪个工具打开这个目录，AI 都能第一时间读到正确的协议：
+
+`CLAUDE.md` · `AGENTS.md`（Codex）· `GEMINI.md` · `WARP.md` · `WORKBUDDY.md` · `CODEBUDDY.md` · `.cursorrules`（Cursor）· `.windsurfrules`（Windsurf）· `.github/copilot-instructions.md`（Copilot）
+
+这些都是薄指针，统一指向核心协议 `SOUL.md`。详见 [`PLATFORM-ENTRIES.md`](./PLATFORM-ENTRIES.md)。用不到的可以直接删，不影响运行。
+
 ## 一张表看懂核心
 
 | 层 | 文件 | 回答什么问题 |
