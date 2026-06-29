@@ -1,0 +1,63 @@
+# ============================================================
+# 隐私优先：默认排除你的"内容层"，只让"框架层"进版本库
+# 如果你想用 Git 同步自己的笔记，按需注释掉对应行
+# ============================================================
+
+# --- 个人知识内容（默认不公开）---
+# 如果这是你的私有知识库，且你想同步笔记，请注释掉下面这行
+# topics/
+
+# --- 原始材料（版权 / 大文件，强烈建议排除）---
+_vault/books/
+_vault/videos/
+_vault/podcasts/
+_vault/audios/
+_vault/images/
+# 保留材料索引（不含文件本体）
+!_vault/_index.md
+
+# --- 凭证与配置（绝不提交）---
+.config/
+*.env
+.env
+!.env.example
+**/config.json
+
+# --- 个人操作日志（私有历史）---
+_changelog/*.md
+!_changelog/README.md
+
+# --- 待整理速记 ---
+_todo/
+
+# --- 平台私有记忆 / 自动化 ---
+.workbuddy/
+.cursor/
+.codebuddy/
+
+# --- 临时文件 ---
+_tmp/
+**/_tmp/
+**/_tmp_*/
+*_epub_tmp.md
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Node（若添加前端）---
+node_modules/
+dist/
+build/
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- 日志 ---
+*.log
